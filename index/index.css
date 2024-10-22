@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    position: relative;
+}
+
+h1 {
+    font-size: 4em;
+    text-align: center;
+}
+
+.login-button {
+    position: absolute;
+    top: 20px;
+    right: 110px;
+}
+
+.login-button a {
+    text-decoration: none;
+    color: white;
+    background-color: #007BFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.login-button a:hover {
+    background-color: #0056b3;
+}
+
+.sign-in-button {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+
+.sign-in-button a {
+    text-decoration: none;
+    color: white;
+    background-color: #007BFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.sign-in-button a:hover {
+    background-color: #0056b3;
+}
