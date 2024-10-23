@@ -4,76 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Classements</title>
-    <link rel="stylesheet" href="allranking001.css"> <!-- Lien vers le fichier CSS -->
+    <link rel="stylesheet" href="allranking001.css".css"> <!-- Lien vers le fichier CSS -->
 </head>
 <body>
 
+    <!-- Header fixe avec bouton AllRanking et barre de recherche -->
     <header>
-        <h1>Classements</h1>
+        <a href="allranking001.html" class="btn-allranking">AllRanking</a>
+        <input type="text" id="search-box" placeholder="Rechercher des classements..." onkeyup="filterBoxes()">
     </header>
 
-    <div class="container">
-        <!-- Exemple de case cliquable -->
-        <a href="classement1.html" class="case" style="background-image: url('image1.jpg');">
-            <div class="case-title">
-                <h2>Classement 1</h2>
-            </div>
-        </a>
-
-        <a href="classement2.html" class="case" style="background-image: url('image2.jpg');">
-            <div class="case-title">
-                <h2>Classement 2</h2>
-            </div>
-        </a>
-
-        <a href="classement3.html" class="case" style="background-image: url('image3.jpg');">
-            <div class="case-title">
-                <h2>Classement 3</h2>
-            </div>
-        </a>
-
-        <a href="classement4.html" class="case" style="background-image: url('image4.jpg');">
-            <div class="case-title">
-                <h2>Classement 4</h2>
-            </div>
-        </a>
-
-        <a href="classement5.html" class="case" style="background-image: url('image5.jpg');">
-            <div class="case-title">
-                <h2>Classement 5</h2>
-            </div>
-        </a>
-
-        <a href="classement4.html" class="case" style="background-image: url('image4.jpg');">
-            <div class="case-title">
-                <h2>Classement 4</h2>
-            </div>
-        </a>
-
-        <a href="classement5.html" class="case" style="background-image: url('image5.jpg');">
-            <div class="case-title">
-                <h2>Classement 5</h2>
-            </div>
-        </a>
-
-        <a href="classement5.html" class="case" style="background-image: url('image5.jpg');">
-            <div class="case-title">
-                <h2>Classement 5</h2>
-            </div>
-        </a>
-
-        <a href="classement4.html" class="case" style="background-image: url('image4.jpg');">
-            <div class="case-title">
-                <h2>Classement 4</h2>
-            </div>
-        </a>
-
-        <a href="classement5.html" class="case" style="background-image: url('image5.jpg');">
-            <div class="case-title">
-                <h2>Classement 5</h2>
-            </div>
-        </a>
+    <div class="container" id="box-container">
+        <!-- Les cases seront insérées ici par JavaScript -->
     </div>
 
+    <script src="allranking001.js"></script> <!-- Lien vers le script JS -->
 </body>
 </html>
