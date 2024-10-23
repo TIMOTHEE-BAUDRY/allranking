@@ -30,6 +30,7 @@ header {
     background-color: #555;
     padding: 10px 20px;
     border-radius: 5px;
+    margin-right: 20px; /* Espacement à droite du bouton */
 }
 
 .btn-allranking:hover {
@@ -39,10 +40,15 @@ header {
 /* Barre de recherche */
 #search-box {
     width: 50%;
+    max-width: 500px; /* Limite de la largeur de la barre de recherche */
     padding: 10px;
     font-size: 16px;
     border: none;
     border-radius: 5px;
+    outline: none;
+    margin-left: auto; /* Alignement à droite */
+    margin-right: auto; /* Alignement à gauche */
+    display: block;
 }
 
 /* Conteneur principal avec un padding-top pour compenser la position fixe du header */
