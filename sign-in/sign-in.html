@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-in</title>
+    <style>
+        /* Centrage du formulaire */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f4f4f9;
+            position: relative;
+        }
+
+        /* Centrer le formulaire */
+        .form-container {
+            position: relative;
+            width: 100%;
+            max-width: 640px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        iframe {
+            border: none;
+            z-index: 1; /* Met l'iframe au-dessus du bouton */
+        }
+
+        /* Style du bouton de redirection, en haut à droite de la page */
+        #redirect-button {
+            position: fixed;  /* Positionnement fixe par rapport à la page */
+            top: 10px;  /* En haut de la page */
+            right: 10px;  /* À droite de la page */
+            z-index: 10; /* Met le bouton devant tout le reste */
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="form-container">
+        <!-- Intégration de Google Form -->
+        <iframe id="google-form" src="https://docs.google.com/forms/d/e/1FAIpQLSdMjf3TA2ZMgD4Q3S_Rt6J0OBUafH7vTefhbIGIF37n2G62yA/viewform?embedded=true" width="640" height="800" frameborder="0" marginheight="0" marginwidth="0">Chargement…</iframe>
+    </div>
+
+    <!-- Bouton de redirection, en haut à droite de la page -->
+    <button id="redirect-button" onclick="window.location.href='../allranking001/allranking001.html';">Continuer</button>
+
+</body>
+</html>
