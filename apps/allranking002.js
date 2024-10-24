@@ -1,6 +1,6 @@
 // Liste des cases avec titres et images
 const cases = [
-    { title: 'Social Media', image: '../images/image1.jpg', link: '../ranking/social networks.html' },
+    { title: 'Social Media', image: '../images/image1.jpg', link: '../ranking/social-media.html' },
     { title: 'Classement 2', image: 'image2.jpg', link: 'classement2.html' },
     { title: 'Classement 3', image: 'image3.jpg', link: 'classement3.html' },
     { title: 'Classement 4', image: 'image4.jpg', link: 'classement4.html' },
