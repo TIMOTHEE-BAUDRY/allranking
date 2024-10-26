@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AllRanking</title>
+    <link rel="icon" href="../images/allranking.png" type="image/png">
+    <link rel="stylesheet" href="allranking001.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+
+    <!-- Header fixe avec bouton AllRanking et barre de recherche -->
+    <header>
+        <a href="allranking001.html" class="btn-allranking">AllRanking</a>
+        <input type="text" id="search-box" placeholder="search for ranking..." onkeyup="filterBoxes()">
+        <a href="../search/allranking003.html" class="btn-search">Search<ion-icon name="search-outline"></ion-icon></a>
+    </header>
+
+    <!-- Boîte des catégories avec menus déroulants -->
+    <div class="categories-box">
+        <div class="category">
+            <a href="software.html" class="category-text">Software</a>
+            <div class="dropdown">
+                <a href="../apps/allranking002.html">sites</a>
+                <a href="../ranking/chrome-extensions.html">chrome extensions</a>
+                
+            </div>
+        </div>
+    
+        
+
+        <!-- Ajouter d'autres catégories avec des sous-catégories -->
+    </div>
+
+    <div class="container" id="box-container">
+        <!-- Les cases seront insérées ici par JavaScript -->
+    </div>
+
+    <script src="allranking001.js"></script>
+</body>
+</html>
