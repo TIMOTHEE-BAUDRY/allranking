@@ -2,7 +2,7 @@
 const cases = [
     { title: '3D softwares', image: '../images/image1.jpg', link: '../ranking/3Dsoftware.html' },
     { title: 'Social Media', image: 'social-media.jpg', link: '../ranking/social-media.html' },
-    { title: 'Classement 3', image: 'image3.jpg', link: 'classement3.html' },
+    { title: 'Movies', image: 'image3.jpg', link: '../ranking/movies.html' },
     { title: 'Classement 4', image: 'image4.jpg', link: 'classement4.html' },
     { title: 'Classement 5', image: 'image5.jpg', link: 'classement5.html' }
 ];
